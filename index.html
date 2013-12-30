@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--<meta charset="utf-8">-->
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+		<title>index</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<canvas id="dialogueCanvas" width="256" height="208"> </canvas>
+		<br/>
+		Hair Color:
+		<select id = "hairList">
+        	<option value = "0">blonde</option>
+            <option value = "1">brown</option>
+        </select>    		
+		Shirt Color:
+		<select id = "shirtList">
+        	<option value = "0">white</option>
+            <option value = "1">red</option>
+        </select>
+		Shoe Color:
+		<select id = "shoeList">
+        	<option value = "0">red</option>
+            <option value = "1">white</option>
+        </select>    
+        Pants Color:
+        <select id = "pantsList">
+        	<option value = "0">blue</option>
+            <option value = "1">red</option>
+        	<option value = "2">black</option>      	        
+        </select>  
+        <button id='predictBtn'>Predict Group</button>
+        <div id='output'></div>
+		<script src="/js/extlib/underscore.js"></script>
+		<script src="/js/extlib/jquery-1.10.2.js"></script>
+		<script src="/js/extlib/numeric-1.2.6.js"></script>
+		<script src="/js/extlib/backbone.js"></script>
+		<script src="/js/extlib/easeljs-0.7.0.min.js"></script>
+		<script src="/js/extlib/preloadjs-0.4.0.min.js"></script>
+        <script src="/js/extlib/tweenjs-0.5.0.min.js"></script>
+		<script src="/js/neuralnet.js"></script>
+		<script src="/js/view.js"></script>		
+		<script src="/js/main.js"></script>
+	</body>
+</html>
